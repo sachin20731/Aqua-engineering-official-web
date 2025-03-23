@@ -51,33 +51,22 @@ function Home() {
         {/* Black Overlay */}
         <div className="absolute inset-0 bg-black opacity-60"></div>
 
-        
-        <div className="absolute inset-0 flex flex-col pt-30 items-center ">
-          <h1 ><span  className="text-6xl font-bold text-orange-500">Form Vision </span> <span className="text-6xl font-bold text-white"  >To Reality</span> </h1>
-          <h2 className="text-3xl font-semibold text-white pr-39 pt-4">Your Trusted Construction Partner</h2>
-          <h1 className="text-white font-font-thin text-2x1  pt-5">We provide cost-effective, high-quality construction solutions designed to match your vision.<br/> From residential to commercial and industrial projects, we build with expertise, innovation,
-          <br/> and dedication.</h1>
+        {/* Content Section */}
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+          <h1 className="text-6xl font-bold text-orange-500">Form Vision</h1>
+          <h1 className="text-6xl font-bold text-white">To Reality</h1>
+          <h2 className="text-3xl font-semibold pt-4">Your Trusted Construction Partner</h2>
+          <p className="text-xl font-light pt-5">
+            We provide cost-effective, high-quality construction solutions designed to match your vision. From residential to commercial and industrial projects, we build with expertise, innovation, and dedication.
+          </p>
         </div>
 
+        {/* Talk To Us Button */}
+        <button className="absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-black text-white w-40 h-11 rounded-md hover:bg-orange-600 transition">
+          Talk To Us
+        </button>
 
-        
-          <button className= " absolute  bg-black text-white w-40 h-11 mt-90  ml-108 hover:bg-orange-600 transition">
-            Talk To Us
-          </button>
-       
-
-
-        
-          <button className="bg-black text-white w-40 h-11  absolute mt-90 ml-158 hover:bg-orange-600 transition">
-            Talk To Us --->
-          </button>
-       
-
-        
-
-        
-
-        {/* left arrow */}
+        {/* Left Arrow Button */}
         <button
           className="absolute left-5 top-1/2 transform -translate-y-1/2 bg-gray-900 bg-opacity-50 p-3 rounded-full text-white hover:bg-gray-700"
           onClick={handlePrev}
@@ -85,36 +74,21 @@ function Home() {
           <FaArrowLeft size={30} />
         </button>
 
-        {/* Right Arrow */}
+        {/* Right Arrow Button */}
         <button
           className="absolute right-5 top-1/2 transform -translate-y-1/2 bg-gray-900 bg-opacity-50 p-3 rounded-full text-white hover:bg-gray-700"
           onClick={handleNext}
         >
           <FaArrowRight size={30} />
         </button>
-
-        {/* Buttons */}
-        
-      </div>
-      <div>
-
-      <div className="container w-full h-400 ">
-
       </div>
 
-
-
-    
+      {/* Optional Additional Section */}
+      <div className="container w-full h-400">
+        <div className=" absolute  -mt-15 container w-250 h-80 bg-white ml-63 text-white shadow-md"></div>
       </div>
-
-      
     </>
   );
 }
 
 export default Home;
-
-
-
-
-
