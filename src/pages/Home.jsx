@@ -84,6 +84,11 @@ function Home() {
       </div>
 
       {/* Optional Additional Section */}
+      {/* Optional Additional Section */}
+      {/* Optional Additional Section */}
+      {/* Optional Additional Section */}
+      {/* Optional Additional Section */}
+      
       <div className="container w-full h-400">
         <div className=" absolute  -mt-15 container w-250 h-80 bg-white ml-63 text-white shadow-md"></div>
       </div>
