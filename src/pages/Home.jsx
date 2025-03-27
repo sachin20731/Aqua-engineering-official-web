@@ -40,7 +40,7 @@ function Home() {
     <>
       <Navbar />
 
-      <div className="relative w-full h-screen overflow-hidden">
+      <div className="  mt-12 w-full h-screen overflow-hidden">
         {/* Background Image */}
         <img
           src={images[currentImageIndex]}
@@ -49,7 +49,7 @@ function Home() {
         />
 
         {/* Black Overlay */}
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute  h-screen inset-0 bg-black opacity-60"></div>
 
         {/* Content Section */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
@@ -57,12 +57,12 @@ function Home() {
           <h1 className="text-6xl font-bold text-white">To Reality</h1>
           <h2 className="text-3xl font-semibold pt-4">Your Trusted Construction Partner</h2>
           <p className="text-xl font-light pt-5">
-            We provide cost-effective, high-quality construction solutions designed to match your vision. From residential to commercial and industrial projects, we build with expertise, innovation, and dedication.
+            We provide cost-effective, high-quality construction solutions designed to match your vision. From residential to commercial and industrial projects,<br/> we build with expertise, innovation, and dedication.
           </p>
         </div>
 
         {/* Talk To Us Button */}
-        <button className="absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-black text-white w-40 h-11 rounded-md hover:bg-orange-600 transition">
+        <button className="absolute bottom-34  left-1/2 transform -translate-x-1/2 bg-black text-white w-40 h-11 rounded-md hover:bg-orange-600 transition">
           Talk To Us
         </button>
 
@@ -84,14 +84,30 @@ function Home() {
       </div>
 
       {/* Optional Additional Section */}
-      {/* Optional Additional Section */}
-      {/* Optional Additional Section */}
-      {/* Optional Additional Section */}
-      {/* Optional Additional Section */}
       
-      <div className="container w-full h-400">
-        <div className=" absolute  -mt-15 container w-250 h-80 bg-white ml-63 text-white shadow-md"></div>
+
+      <div className=" container w-full h-50">
+        <div className=" grid grid-cols-2        text-center absolute  -mt-15 container w-250 h-80 bg-white ml-63 text-white shadow-md  rounded-t-md">
+          <div className="grid grid-cols-1 bg-amber-200">
+           <h1 className="text-black  font-bold text-8xl font-mono ">12 +</h1>
+           <h1 className="text-black  font-bold text-8xl font-mono ">years expertise</h1>
+          </div>
+        </div>
       </div>
+
+      <div className="flex items-center justify-center ">
+        <div className="w-320 h-300 bg-white">
+        <h1 className=" mt-34 flex justify-center">About Us</h1>
+          <div className="grid grid-cols-2">
+            <div className="grid m-6 grid-cols-1 bg-amber-200">
+              <h1 className="text-black  font-bold text-8xl font-mono ">12 +</h1>
+              <h1 className="text-black  font-bold text-8xl font-mono ">years expertise</h1>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      
     </>
   );
 }
