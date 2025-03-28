@@ -38,7 +38,7 @@ function Home() {
 
   return (
     <>
-      <Navbar />
+     
 
       <div className="  mt-12 w-full h-screen overflow-hidden">
         {/* Background Image */}
@@ -49,7 +49,7 @@ function Home() {
         />
 
         {/* Black Overlay */}
-        <div className="absolute  h-screen inset-0 bg-black opacity-60"></div>
+        <div className="absolute  h-screen mt-12 inset-0 bg-black opacity-60"></div>
 
         {/* Content Section */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">

@@ -37,7 +37,7 @@ const Navbar = () => {
     <>
       {/* Top Contact Bar (Orange Area) */}
       {showOrangeBar && (
-        <div className="bg-orange-500 h-12 flex items-center justify-between px-12 text-white fixed w-full top-0 z-50">
+        <div className="bg-orange-500 h-12 flex items-center px-10 justify-between  text-white fixed w-full top-0 z-50 ">
           <div className="flex space-x-8">
             <div className="flex items-center space-x-2">
               <img src={email} alt="Email" className="w-6 h-6" />
