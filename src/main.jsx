@@ -9,3 +9,8 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+import '@fontsource/outfit/300.css'; // Light
+import '@fontsource/outfit/400.css'; // Normal
+import '@fontsource/outfit/600.css'; // Semi-bold
+import '@fontsource/outfit/700.css';

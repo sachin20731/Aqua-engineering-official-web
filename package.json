@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/crimson-text": "^5.2.5",
+    "@fontsource/outfit": "^5.2.5",
     "@fontsource/poppins": "^5.2.5",
     "@tailwindcss/vite": "^4.0.14",
     "framer-motion": "^12.5.0",
